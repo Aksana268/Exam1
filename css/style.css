@@ -1,0 +1,38 @@
+.container {
+  width: 1596px;
+  height: 6566px;
+}
+.header__1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 74px;
+  background-color: #2b150d;
+}
+.dd {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #fff;
+}
+.ss {
+  color: #fff;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  gap: 74px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 1749px) {
+  .ss {
+    display: none;
+  }
+}
